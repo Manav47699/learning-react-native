@@ -1,3 +1,7 @@
+### Commands
+
+- TO setup react native in a folder -> "npx create-expo-app learning-react-native"
+- To reset the default project -> "npx expo reset-project"
 ### Day 1 (Introduction and setup)
 
 - Definations
@@ -42,4 +46,12 @@ npx expo start --localhost
 7) Scan the QR and DONE.
 
 
+
+
+### DAY 2
+
+### Day 3
+
+1) "index.tsx" is the entry file for our project
 EXTRA (for making an emulator in Android Studio): more actoin, sdk manager, sdk platform, android 16, ok apply, sdk tools, dai le gareko tick hanne anu apply handene 
+
