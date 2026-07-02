@@ -9,7 +9,8 @@ export default function Index() {
    < View style = {[styles.container, {paddingTop: top}]}>
     {/* <Image source={}/> */}
 
-   <Text>asdasd</Text>
+   <Text>How are you feeling today?</Text>
+   
    </View>
     
     
