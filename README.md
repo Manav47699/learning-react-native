@@ -1,6 +1,7 @@
 ### Commands
 
 - TO setup react native in a folder -> "npx create-expo-app learning-react-native"
+NOTE: If it asks which version make sure to choose a version that is compatible with expo go so that we can render our project in our phone. As of today, that is SDK version 56
 - To reset the default project -> "npx expo reset-project"
 ### Day 1 (Introduction and setup)
 
