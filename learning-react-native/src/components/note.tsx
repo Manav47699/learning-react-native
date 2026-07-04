@@ -11,7 +11,7 @@ export default function Notes() {
   return (
     <View>
         <Text style={{fontSize: 20, fontWeight: "bold", marginLeft: 5, margin: 5}}>Write your notes here</Text>
-        <TextInput style ={{borderColor: "skyblue", borderWidth: 2, margin: 20}}></TextInput>
+        <TextInput style ={{borderColor: "skyblue", borderWidth: 2, margin: 20, height: 100}}></TextInput>
         <Pressable style ={styles.button}>
             <Text> Save Notes</Text>
         </Pressable>
