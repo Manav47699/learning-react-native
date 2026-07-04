@@ -22,7 +22,11 @@ npx create-expo-app@latest myproject
 ```
 
 
+### DAY 2
+
+
 - Connecting react native app from PC (code) to mobile (renderd product).
+
 1) In your phone, go to settings -> About Phone -> Build number -> Tap the Build number 7 times. Now you are in developer mode.
 
 2) In your phone, go to settings -> Developer options -> enable USB debugging
@@ -46,13 +50,16 @@ npx expo start --localhost
 
 7) Scan the QR and DONE.
 
-
-
-
-### DAY 2
-
 ### Day 3
 
 1) "index.tsx" is the entry file for our project
-EXTRA (for making an emulator in Android Studio): more actoin, sdk manager, sdk platform, android 16, ok apply, sdk tools, dai le gareko tick hanne anu apply handene 
+EXTRA (for making an emulator in Android Studio): more actoin, sdk manager, sdk platform, android 16, ok apply, sdk tools, dai le gareko tick hanne anu apply handene .
 
+### Day 4
+
+1) Asking for user input, buliding components
+
+
+### DAY 5
+
+1) navigation, folder structuring, passing params, splash screen, lucide react for icons
