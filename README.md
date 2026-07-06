@@ -63,3 +63,7 @@ EXTRA (for making an emulator in Android Studio): more actoin, sdk manager, sdk 
 ### DAY 5
 
 1) navigation, folder structuring, passing params, splash screen, lucide react for icons
+
+### DAY 6: Building, apk
+
+- You will find you final apk file here -> " android/app/build/outputs/akp/release/app-realease.apk"

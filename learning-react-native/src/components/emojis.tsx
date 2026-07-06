@@ -3,8 +3,8 @@ import { Text, View, StyleSheet, Pressable, Image } from "react-native";
 
 import { SafeAreaProvider, SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
 
-export default function Emojis() {
-  const [selectedMood, setSelectedMood] = useState(null);
+export default function Emojis({selectedMood, setSelectedMood}) {
+
 const moods = [
     { name: 'Very happy', img: require("../assets/images/very_happy.png") },
     { name: 'Happy', img: require("../assets/images/happy.png") },
@@ -16,7 +16,9 @@ const moods = [
 
   return(
     <>
+    <Text style = {{marginTop: 10, fontSize: 20, marginBottom: 10, marginLeft: 8}}>So, how are you feeling today?</Text>
     <View style={{ flexDirection: "row", justifyContent: "space-evenly" }}>
+      
 {/*map() function goes thorugh our list one by one and */}
 
       {moods.map((mood) => {
@@ -31,7 +33,7 @@ const moods = [
             onPress={() => setSelectedMood(mood.name)} // 4. Update memory on tap
           >
             <Image source={mood.img} style={{ width: 30, height: 30, marginBottom: 5 }} />
-            <Text style = {textAlign: "center"}>{mood.name}</Text>
+            <Text style={{ textAlign: "center", fontSize: 10 }}>{mood.name}</Text>
           </Pressable>
         );
         
